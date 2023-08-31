@@ -1,0 +1,25 @@
+grep -v \
+-e "\"Active\":" \
+-e "\"ApiId\":" \
+-e "\"DateDeleted\":" \
+-e "\"DateInserted\":" \
+-e "\"DateUpdated\":" \
+-e "\"Id\":" \
+-e "\"Order\":" \
+Move.json
+
+grep -v \
+-e "\"Active\":" \
+-e "\"Comment\":" \
+-e "\"DateDeleted\":" \
+-e "\"DateUpdated\":" \
+-e "\"Downgraded\":" \
+-e "\"FirstAscent\":" \
+-e "\"HasBetaVideo\":" \
+-e "\"Holdsets\":" \
+-e "\"IsMaster\":" \
+-e "\"Method\":" \
+-e "\"MoonBoardConfigurationId\":" \
+-e "\"MoonId\":" \
+-e "\"Upgraded\":" \
+Problem.json
